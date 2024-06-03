@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dailyshedule</title>
+    <link rel="stylesheet" href="dailyshedule.css">
+</head>
+<body>
+    <div class="container">
+        <div class="topbar">
+            <div class="bar1">
+                <h1>Daily Scheduling<h1>
+                    <div class="bar2">
+                        <a href="#">Dashboard</a>/
+                        <a href="#">Employees</a>/
+                        <a style="color: gray;" href="#"> Shift Scheduling</a>
+                     </div>
+            </div>
+            <div class="get">
+                <a href="#">Assign Shifts</a>
+                <a href="#">Shifts</a>
+
+            </div>
+        </div>
+        <div class="forms">
+            
+                <label for="name">
+                    <input type="search"  id="name" placeholder="Employee">
+                </label>
+                <label for="Department" ></label>
+                <select id="department" name="Department">
+                    <option value="All departments">All Departments</option>
+                    <option value="WT">WT</option>
+                    <option value="DB ADMIN">DB ADMIN</option>
+                    <option value="XML">XML</option>
+                </select>
+                <label for=" date"></label>
+                <input type="text"  id="date" name="from" placeholder="from">
+                <label for=" date"></label>
+                <input type="text"  id="date" name="to" placeholder="to">
+                <button><a href="#">SEARCH</a></button>
+        
+        </div>
+        <div class="list">
+            <table>
+            <tr>
+                <th>Scheduled Shift &#8693;</th>
+                <th>Fri 21 &#8693;</th>
+                <th>Sat 22 &#8693;</th>
+                <th>Sun 23 &#8693;</th>
+                <th>Mon 24 &#8693;</th>
+                <th>Tue 25 &#8693;</th>
+                <th>Wed 26 &#8693;</th>
+                <th>Thur 27 &#8693;</th>
+                <th>Fri 28 &#8693;</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="icon">
+                        <img src="./roundicon-removebg-preview.png">
+                        <div class="icon2">
+                        <h>Bernardo Galaviz</h>
+                        <p>Web Developer</p>
+                        </div>
+                    </div>
+                </td>
+                <td><p>6:30 am-9:30 pm(14hrs 15mins)</p>
+                <p>Web Designer-SMARTHR</p></td>
+                <td><a href="#">&#10133;</a></td>
+                <td><a href="#">&#10133;</a></td>
+                <td><a href="#">&#10133;</a></td>
+                <td><a href="#">&#10133;</a></td>
+                <td><a href="#">&#10133;</a></td>
+                <td><p>6:30 am-9:30 pm(14hrs 15mins) Web Designer-SMARTHR</p></td>
+                <td><a href="#">&#10133;</a></td>
+            </tr>
+            <tr>
+            <td>
+                <div class="icon">
+                 <img src="./roundicon-removebg-preview.png">
+                 <div class="icon2">
+                 <h>Jeffrey Warden</h>
+                 <p>Web Developer</p>
+                </div>
+                </div>
+            </td>
+            <td>&#10133;</td>
+            <td>&#10133;</td>
+            <td>&#10133;</td>
+            <td><p>6:30 am-9:30 pm(14hrs 15mins)</p>
+                <p>Web Designer-SMARTHR</p></td>
+            <td>&#10133;</td>
+            <td>&#10133;</td>
+            <td>&#10133;</td>
+            <td><p>6:30 am-9:30 pm(14hrs 15mins)</p>
+                <p>Web Designer-SMARTHR</p></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="icon">
+                        <img src="./roundicon-removebg-preview.png">
+                        <div class="icon2">
+                        <h>John Doe</h>
+                        <p>Web Developer</p>
+                    </div>
+                    </div>
+                </td>
+                <td><p>6:30 am-9:30 pm(14hrs 15mins)</p>
+                    <p>Web Designer-SMARTHR</p></td>
+                <td>&#10133;</td>
+                <td>&#10133;</td>
+                <td>&#10133;</td>
+                <td>&#10133;</td>
+                <td>&#10133;</td>
+                <td><p>6:30 am-9:30 pm(14hrs 15mins)</p>
+                    <p>Web Designer-SMARTHR</p></td>
+                <td>&#10133;</td>
+             </tr>
+
+            <tr>
+                <td>
+                <div class="icon">
+                    <img src="./roundicon-removebg-preview.png">
+                    <div class="icon2">
+                    <h>John Smith</h>
+                    <p>Android Developer</p>
+                </div>
+                </div>
+                </td>
+                <td>&#10133;</td>
+                <td>&#10133;</td>
+                <td><p>6:30 am-9:30 pm(14hrs 15mins)</p>
+                    <p>Web Designer-SMARTHR</p></td>
+                    <td>&#10133;</td>
+                    <td>&#10133;</td>
+                    <td>&#10133;</td>
+                    <td><p>6:30 am-9:30 pm(14hrs 15mins)</p>
+                        <p>Web Designer-SMARTHR</p></td>
+                        <td>&#10133;</td>
+                             </tr>
+         </table>
+        </div>
+        </div>
+        <div id="form">
+            <form action="">
+                <input type="time">
+                <input type="time">
+                <input type="text">
+                <input type="text">
+                <input type="submit">
+            </form>
+        </div>
+        <script type="text/javascript" src="dailyshedule.js">
+        </script>
+</body>
+</html>
+       
+        
